@@ -1,0 +1,143 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	/* background-image:url('https://www.corporatevision-news.com/wp-content/uploads/2021/12/Inventory.jpg') ; */
+}
+
+/* .container {
+	width: 1400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+} */
+.top-nav {
+	display: flex;
+	justify-content: space-between;
+	background-color: blue;
+	color: white;
+	padding: 15px 200px;
+}
+.top-nav-right {
+	display: flex;
+	gap: 0 15px;
+	align-items: center;
+}
+.title-1 {
+	font-size: 15px;
+	font-weight: 400;
+}
+.top-nav-right > button {
+	border: 0;
+	background: transparent;
+	color: white;
+}
+.main {
+	display: flex;
+	margin-top: 50px;
+	gap: 0 25px;
+	justify-content: center;
+	align-items: center;
+	width: 1275px;
+	height: 545px;
+	background-color: #b7ecde; 
+	/* background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+
+	/* background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,0.48783263305322133) 100%); */
+
+	/* background: rgb(63,94,251);
+	background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); */
+
+	/* background: rgb(63,94,251);
+	background: linear-gradient(90deg, rgba(63,94,251,0.5018382352941176) 0%, rgba(252,70,107,0.47942927170868344) 93%); */
+
+	padding: 15px 200px;
+}
+.left-section {
+	background-color: white;
+	width: 25%;
+}
+.left-nav {
+	display: flex;
+	flex-direction: column;
+	gap: 5px 0;
+}
+.link {
+	text-decoration: none;
+	color: rgb(70, 70, 240);
+	padding: 8px;
+}
+.link:hover {
+	background-color: white;
+	color: white;
+}
+.right-section {
+	background-color: #00e6ac;
+	width: 250%;
+	border: 1px solid gainsboro; 
+	border-radius: 5px;
+}
+.right-section-title {
+	font-size: 20px;
+	font: italic 1.8em "Fira Sans", serif;
+	color: #DAF7A6;
+	font-weight: 400;
+	background-color: #06684f;
+	padding: 10px;
+	border-bottom: 1px solid gray;
+}
+.form-section,
+.form-section-2 {
+	padding: 10px;
+	display: flex;
+	gap: 0 10px;
+}
+.form-title {
+	font-size: 30px;
+	font: italic 1.8em "Fira Sans", serif;
+	color: #8e4a1a ;
+	padding-bottom: 5px;
+}
+.form-input {
+	border: 2px solid gainsboro;
+	border-radius: 5px;
+	height: 25px;
+	width: 100%;
+}
+.button {
+	padding: 10px;
+	display: flex;
+	gap: 0 10px;
+}
+ .btn {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer; 
+}
+.btn-1 {
+	font-size: 15px;
+	font: italic 1.8em "Fira Sans", serif;
+	background-color: #06684f;
+	color: white;
+	position: static;
+	border: none;
+}
+.btn-2 {
+	font-size: 15px;
+	font: italic 1.8em "Fira Sans", serif;
+	background-color:#06684f;
+	color: white;
+	position: static;
+	border: none;
+}
+.btn-3 {
+	font: italic 1.8em "Fira Sans", serif;
+	background-color: #b7f1e3;
+	color: black;
+}
